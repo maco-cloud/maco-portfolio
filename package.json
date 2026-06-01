@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.js",
+    "deploy": "wrangler deploy",
     "build:css": "tailwindcss -c ./styles/tailwind.config.js -i ./styles/input.css -o ./styles/main.css --minify",
     "watch:css": "tailwindcss -c ./styles/tailwind.config.js -i ./styles/input.css -o ./styles/main.css --watch"
   },
