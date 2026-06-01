@@ -1,0 +1,12 @@
+{
+  "name": "maco-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -c ./styles/tailwind.config.js -i ./styles/input.css -o ./styles/main.css --minify",
+    "watch:css": "tailwindcss -c ./styles/tailwind.config.js -i ./styles/input.css -o ./styles/main.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
